@@ -1,0 +1,26 @@
+{
+  "name": "3d-tiles-animation",
+  "version": "0.1.0",
+  "description": "Animation plugin for 3d-tiles-renderer.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsw0108/3d-tiles-animation.git"
+  },
+  "author": "wsw010@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "3d-tiles-renderer": "^0.4.10",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.172.0",
+    "typescript": "^5.8.3"
+  }
+}
